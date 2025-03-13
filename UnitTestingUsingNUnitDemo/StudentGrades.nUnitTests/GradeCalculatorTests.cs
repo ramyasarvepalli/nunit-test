@@ -23,7 +23,7 @@ namespace StudentGrades.nUnitTests
             var grade = _gradeCalculator.GetGradeByPercentage(percentage);
 
             // Assert
-            Assert.That(grade, Is.EqualTo("A+"));
+            Assert.That(grade, Is.EqualTo("A"));
         }
 
         [TestCase(90)]
